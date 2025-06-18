@@ -200,7 +200,7 @@ https://doody-nine.vercel.app/
    - 원인: `flutter`가 자동 추가하는 CORS 관련 헤더와 PHP 서버 코드에서 수동 추가한 헤더가 중복되어 오류 발생
    - **해결 방법**: PHP 파일 내 `Access-Control-Allow-Origin` 관련 헤더 제거
 
-### 2. `text_style.dart` - 모든 `Text` 위젯에 `Obx` 적용이 비효율적
+### 2. `text_style.dart` - 모든 Text 위젯에 Obx 적용이 비효율적
 - 원인: `scale` 값은 `RxDouble`로 상태가 관리되지만, 이를 적용하려면 모든 `Text` 위젯을 `Obx`로 감싸야 함
   -> 코드량 증가 -> 유지보수 난이도 상승
 - **해결 방법**:
