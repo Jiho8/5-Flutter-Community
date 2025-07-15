@@ -40,7 +40,7 @@
 
 ### 4. 주요 기술 스택
 
-* Front-End : Flutter
+* Front-End : Flutter, Hive
 * Back-End : PHP, XAMPP
 * Data-Base : MySQL
 
@@ -116,14 +116,14 @@
 | :---:| :---: | :---: |
 | **Flutter** | **앱 전체 UI 프레임워크** |![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=flat-square&logo=Flutter&logoColor=white)|
 | **Dart** | **Flutter 기본 언어** |![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)|
-| **Hive** | **Local DB 저장** | ![Hive](https://img.shields.io/badge/Hive-2.2.3-yellow?style=flat-square&logo=https://raw.githubusercontent.com/hivedb/hive/master/.github/logo_transparent.svg&logoColor=white)|
-| **HTTP** | **REST API 통신** | ![HTTP](https://img.shields.io/badge/HTTP-1.4.0-informational?style=flat-square) |
+| **Hive** | **Local DB 저장** |![Hive](https://img.shields.io/badge/Hive-2.2.3-yellow?style=flat-square&logo=https://raw.githubusercontent.com/hivedb/hive/master/.github/logo_transparent.svg&logoColor=white)|
+| **GetX** | **라우팅 & 상태 관리 프레임워크** |![GetX](https://img.shields.io/badge/GetX-8A2BE2?style=flat-square&logo=getx&logoColor=white")|
+| **HTTP** | **REST API 통신** |![HTTP](https://img.shields.io/badge/HTTP-1.4.0-informational?style=flat-square) |
 
 ### 2. UI/UX 라이브러리
 
 | 사용기술 | 설명 | Badge |
 | :---:| :---: | :---: |
-| **GetX** | **라우팅 & 상태 관리 프레임워크** |![GetX](https://img.shields.io/badge/GetX-8A2BE2?style=flat-square&logo=getx&logoColor=white")|
 | **flutter_svg** | **SVG 아이콘 및 이미지 지원** |![flutter_svg](https://img.shields.io/badge/flutter__svg-SVG-blue?style=flat-square)|
 | **toggle_switch** | **커스텀 토글 스위치 UI 위젯** |![toggle_switch](https://img.shields.io/badge/toggle__switch-toggle-green?style=flat-square)|
 
@@ -132,18 +132,20 @@
 | 사용기술 | 설명 | Badge |
 | :---:| :---: | :---: |
 | **PHP** | **서버 측 로직 처리** |![PHP](https://img.shields.io/badge/PHP-8892BE?style=flat-square&logo=npm&logoColor=white)|
-| **MySQL** | **데이터베이스 관리**  |![MySQL](https://img.shields.io/badge/MySQL-00758F?style=flat-square&logo=JSON&logoColor=white)|
-| **XAMPP** | **Apache, MySQL, PHP를 통합 제공하는 로컬 서버 개발 도구** |![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=flat-square&logo=nodemon&logoColor=white)|
+| **MySQL** | **데이터베이스 관리** |![MySQL](https://img.shields.io/badge/MySQL-00758F?style=flat-square&logo=JSON&logoColor=white)|
 
 ### 4. 개발 도구
 
 |사용기술 | 설명 | Badge | 
 | :---:| :---: | :---: |
+| **XAMPP** | **Apache, MySQL, PHP를 통합 제공하는 로컬 서버 개발 도구** |![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=flat-square&logo=nodemon&logoColor=white)|
+| **Dothome** | **웹 호스팅 서비스** |![Dothome](https://img.shields.io/badge/Dothome-24ABE3?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE1LjYgMC44ODc5NzhDOS4wNDggMS44OTU5OCAzLjY5NiA2LjI4Nzk4IDEuNjU2IDEyLjM2QzAuODE1OTk4IDE0LjgwOCAwLjQzMTk5OCAxNy43NiAwLjcxOTk5OCAxOS43NTJDMS4yMjQgMjMuMjA4IDIuMDQgMjUuNDE2IDMuNjQ4IDI3Ljc5MkM0LjI0OCAyOC42OCA0LjMyIDI4Ljg3MiA0LjAzMiAyOS4yMzJDMy4xMiAzMC4zODQgMi42ODggMzAuOTEyIDEuODcyIDMxLjgyNEMxLjM2OCAzMi4zNTIgMC45NTk5OTggMzIuODggMC45NTk5OTggMzIuOTc2QzAuOTU5OTk4IDMzLjA0OCAxLjM2OCAzMy4wNzIgMS44NzIgMzNDMi4zNTIgMzIuOTUyIDMuOTYgMzIuNzYgNS40IDMyLjYxNkM4LjA0IDMyLjMyOCA4LjA2NCAzMi4zMjggOSAzMi45MjhDMTEuODA4IDM0LjY1NiAxNC40NzIgMzUuMzc2IDE4LjEyIDM1LjM3NkMyMS4yNCAzNS4zNzYgMjMuMzUyIDM0Ljg5NiAyNS44IDMzLjY3MkMzMC40NTYgMzEuMzIgMzMuNTUyIDI3LjYgMzQuOTkyIDIyLjU2QzM1LjU0NCAyMC42MTYgMzUuNTIgMTUuMjQgMzQuOTQ0IDEzLjMyQzM0LjQ2NCAxMS43ODQgMzMuMzg0IDkuNTAzOTggMzIuNTY4IDguMzAzOThDMzEuMzIgNi41MDM5OCAyNy42MjQgMy4xMTk5OCAyNi45MDQgMy4xMTk5OEMyNi43MzYgMy4xMTk5OCAyNi42NCA2LjIxNTk4IDI2LjU5MiAxMS45MjhMMjYuNTIgMjAuNzZMMjUuODk2IDIyLjA4QzI0LjI0IDI1LjYzMiAxOS45NjggMjcuODY0IDE2LjI3MiAyNy4xMkMxMy4yIDI2LjUyIDEwLjg0OCAyNC43MiA5LjU1MiAyMS45MzZDOC44OCAyMC40OTYgOC44MzIgMjAuMjU2IDguOTI4IDE4LjA3MkM5IDE2LjA4IDkuMDk2IDE1LjUyOCA5LjY3MiAxNC40QzEwLjU4NCAxMi42MjQgMTIuMDQ4IDExLjEzNiAxMy44IDEwLjI3MkMxNS4wNDggOS42NDc5OCAxNS41NzYgOS41Mjc5OCAxNy43MTIgOS40MzE5OEwyMC4xNiA5LjI4Nzk4VjEyLjMzNlYxNS4zNkgxOC4zNkMxNi42MzIgMTUuMzYgMTYuNTM2IDE1LjM4NCAxNS43NDQgMTYuMkMxNS4yODggMTYuNjU2IDE0Ljg4IDE3LjMyOCAxNC44MzIgMTcuNjg4QzE0LjQ3MiAyMC42NCAxNy45MjggMjIuNDY0IDE5Ljg0OCAyMC4zMjhDMjAuODA4IDE5LjI3MiAyMC44OCAxOC41MDQgMjAuODggOS41OTk5OFYxLjAwNzk4TDIwLjM1MiAwLjg2Mzk3NkMxOS43NzYgMC43MTk5NzUgMTYuNjA4IDAuNzE5OTc1IDE1LjYgMC44ODc5NzhaIiBmaWxsPSIjRkZGRkZGIi8+Cjwvc3ZnPgo=)
+| **FileZilla** | **FTP 클라이언트 (서버로 파일 전송 및 관리)** |![FileZilla](https://img.shields.io/badge/FileZilla-BF0000?style=flat-square&logo=filezilla&logoColor=white)|
 | **Visual Studio Code (VS Code)** | **코드 편집기 (에디터)** |![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTI0LjAwMyAyTDEyIDEzLjMwM0w0Ljg0IDhMMiAxMEw4Ljc3MiAxNkwyIDIyTDQuODQgMjRMMTIgMTguNzAyTDI0LjAwMyAzMEwzMCAyNy4wODdWNC45MTNMMjQuMDAzIDJaTTI0IDkuNDM0VjIyLjU2NkwxNS4yODkgMTZMMjQgOS40MzRaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K&logoColor=white) |
-|**GitHub** | **버전 관리** |![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white)| 
+| **GitHub** | **버전 관리** |![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white)| 
 | **Slack** | **협업** |![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white) |
 | **Vercel** | **서버리스 플랫폼** |![vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)|
-| **Figma** | **디자인 & UI/UX**|![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white) |
+| **Figma** | **디자인 & UI/UX** |![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white) |
 
 ## 📚 참고 URL
 - 기획 및 화면 설계 : [B팀)두디_스토리보드.pdf](https://github.com/user-attachments/files/20786324/B._.pdf)
