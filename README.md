@@ -151,7 +151,6 @@
 - 기획 및 화면 설계 : [B팀)두디_스토리보드.pdf](https://github.com/user-attachments/files/20786324/B._.pdf)
 - 발표 자료 : [B팀)두디_발표자료.pdf](https://github.com/user-attachments/files/20786326/B._.pdf)
 - 인터페이스 구현 보고서 : [B팀)두디_인터페이스_구현보고서_천지호](https://drive.google.com/file/d/1DmkGGpoUWMAZ6gTuVYJhSLai_h2LFb5p/view?usp=sharing)
-- 프로젝트 완료 보고서 :
 
 <hr>
 
